@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Lof\PwaCore\Api\Data\SuggestionTagInterface" type="Lof\PwaCore\Model\Data\SuggestionTag"/>
+	<preference for="Lof\PwaCore\Api\PwaRepositoryInterface" type="Lof\PwaCore\Model\PwaCoreRepository"/>
+	<preference type="Lof\PwaCore\Model\Resolver\Products\Query\Search" for="Lof\PwaCore\Model\Resolver\Products\Query\ProductQueryInterface"/>
+
+	<type name="Magento\Framework\GraphQl\Query\Resolver\Argument\FieldEntityAttributesPool">
+        <arguments>
+            <argument name="attributesInstances" xsi:type="array">
+                <item name="pwaFeaturedProducts" xsi:type="object">\Lof\PwaCore\Model\Resolver\FilterArgumentPwaCoreFeaturedProduct</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

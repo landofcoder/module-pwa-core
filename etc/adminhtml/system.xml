@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="lofpwa" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>PWA Studio Core App Settings</label>
+			<tab>landofcoder</tab>
+			<resource>Lof_PwaCore::config</resource>
+			<group id="general" sortOrder="0" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>General</label>
+				<field id="footer_block" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Footer CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="footer_top_block" type="select" sortOrder="14" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Footer Top CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+				<field id="topbar_block" type="select" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Topbar CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="contact_us_top_block" type="select" sortOrder="30" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Contact US Top CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="contact_us_right_block" type="select" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Contact US Right CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="sizechart_block" type="select" sortOrder="50" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Sizechart CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="featuredproduct" type="select" sortOrder="60" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Enable random featured products slider?</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+                <field id="show_recent_view" type="select" sortOrder="70" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Show Recent View Block</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			</group>
+			<group id="searchsuggestion" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>Catalog Search Configuration</label>
+				<field id="display_tag" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Dispaly Tags in Search</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+                <field id="show_featured_tags" type="select" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Show Featured Tags in Search</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="tag_limit" type="text" sortOrder="30" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Number of Tags to display in Search</label>
+					<comment/>
+				</field>
+				<field id="featured_tags" type="text" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Featured Search Tags to display in Search</label>
+					<comment>Input multi tags with comma, it will display when not matched any keywords.</comment>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

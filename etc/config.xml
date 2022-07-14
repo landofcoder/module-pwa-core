@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<lofpwa>
+			<general>
+				<footer_top_block>footer-top</footer_top_block>
+                <footer_block>footer</footer_block>
+                <topbar_block>topbar</topbar_block>
+                <contact_us_top_block>contact-us-top</contact_us_top_block>
+                <contact_us_right_block>contact-us-right</contact_us_right_block>
+                <sizechart_block>sizechart</sizechart_block>
+                <featuredproduct>0</featuredproduct>
+                <show_recent_view>1</show_recent_view>
+			</general>
+			<searchsuggestion>
+				<display_tag>1</display_tag>
+                <show_featured_tags>1</show_featured_tags>
+				<tag_limit>5</tag_limit>
+				<featured_tags/>
+			</searchsuggestion>
+		</lofpwa>
+	</default>
+</config>

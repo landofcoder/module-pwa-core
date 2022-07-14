@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+
+	<route url="/V1/lofpwa/randomFeaturedProducts" method="GET">
+        <service class="Lof\PwaCore\Api\PwaRepositoryInterface" method="getFeaturedProducts"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+	<route url="/V1/lofpwa/searchSuggestionTags/:keyword/:storeId" method="GET">
+        <service class="Lof\PwaCore\Api\PwaRepositoryInterface" method="getSuggestionTags"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/lofpwa/getFeaturedTags/:limit/:storeId" method="GET">
+        <service class="Lof\PwaCore\Api\PwaRepositoryInterface" method="getFeaturedTags"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

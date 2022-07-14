@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+		<arguments>
+			<argument name="extendedConfigData" xsi:type="array">
+				<item name="lofpwa_footer_block" xsi:type="string">lofpwa/general/footer_block</item>
+                <item name="lofpwa_footer_top_block" xsi:type="string">lofpwa/general/footer_top_block</item>
+                <item name="lofpwa_topbar_block" xsi:type="string">lofpwa/general/topbar_block</item>
+                <item name="lofpwa_contact_us_top_block" xsi:type="string">lofpwa/general/contact_us_top_block</item>
+                <item name="lofpwa_contact_us_right_block" xsi:type="string">lofpwa/general/contact_us_right_block</item>
+                <item name="lofpwa_sizechart_block" xsi:type="string">lofpwa/general/sizechart_block</item>
+                <item name="lofpwa_show_recent_view" xsi:type="string">lofpwa/general/show_recent_view</item>
+                <item name="lofpwa_show_related_search" xsi:type="string">lofpwa/searchsuggestion/display_tag</item>
+                <item name="lofpwa_show_featured_tags" xsi:type="string">lofpwa/searchsuggestion/show_featured_tags</item>
+			</argument>
+		</arguments>
+	</type>
+</config>
