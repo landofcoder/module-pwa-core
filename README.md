@@ -61,17 +61,31 @@ Magento 2 Pwa Core Settings
 
 ```
 {
-    pwaSuggestionTags(keyword:"ian"){
-    term
-    title
-    num_of_results
-    is_featured
-    is_hot
+    pwaSuggestionTags(keyword:"ian") {
+        term
+        title
+        num_of_results
+        is_featured
+        is_hot
     }
 }
 ```
 
-2. Get Random Featured PwaCore Products
+2. Get Featured Suggestion Tags
+
+```
+{
+    pwaFeaturedTags(limit: 10) {
+        term
+        title
+        num_of_results
+        is_featured
+        is_hot
+    }
+}
+```
+
+3. Get Random Featured PwaCore Products
 
 ```
 {
@@ -115,7 +129,7 @@ Magento 2 Pwa Core Settings
 }
 ```
 
-3. Pwa core module settings query
+4. Pwa core module settings query
 
 ```
 query{
