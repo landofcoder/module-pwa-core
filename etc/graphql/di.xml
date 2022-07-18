@@ -12,6 +12,10 @@
                 <item name="lofpwa_show_recent_view" xsi:type="string">lofpwa/general/show_recent_view</item>
                 <item name="lofpwa_show_related_search" xsi:type="string">lofpwa/searchsuggestion/display_tag</item>
                 <item name="lofpwa_show_featured_tags" xsi:type="string">lofpwa/searchsuggestion/show_featured_tags</item>
+                <item name="lofpwa_category_sidebar_block" xsi:type="string">lofpwa/general/lofpwa_category_sidebar_block</item>
+                <item name="lofpwa_footer_bottom_block" xsi:type="string">lofpwa/general/lofpwa_footer_bottom_block</item>
+                <item name="lofpwa_seller_signup_top_block" xsi:type="string">lofpwa/general/lofpwa_seller_signup_top_block</item>
+                <item name="lofpwa_seller_signup_bottom_block" xsi:type="string">lofpwa/general/lofpwa_seller_signup_bottom_block</item>
 			</argument>
 		</arguments>
 	</type>

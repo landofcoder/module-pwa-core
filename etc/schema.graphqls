@@ -10,7 +10,10 @@ type StoreConfig {
     lofpwa_show_recent_view  : String  @doc(description: "Query by lofpwa_show_recent_view.")
     lofpwa_show_related_search  : String  @doc(description: "Query by lofpwa_show_related_search.")
     lofpwa_show_hot_searchs  : String  @doc(description: "Query by lofpwa_show_hot_searchs.")
-
+    lofpwa_category_sidebar_block : String  @doc(description: "Query by lofpwa_category_sidebar_block.")
+    lofpwa_footer_bottom_block : String  @doc(description: "Query by lofpwa_footer_bottom_block.")
+    lofpwa_seller_signup_top_block : String  @doc(description: "Query by lofpwa_seller_signup_top_block.")
+    lofpwa_seller_signup_bottom_block : String  @doc(description: "Query by lofpwa_seller_signup_bottom_block.")
 }
 
 type Query {

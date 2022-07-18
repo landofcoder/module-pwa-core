@@ -37,16 +37,38 @@
 					<comment/>
 					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
 				</field>
-                <field id="featuredproduct" type="select" sortOrder="60" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="lofpwa_category_sidebar_block" type="select" sortOrder="60" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Category Sidebar CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="lofpwa_footer_bottom_block" type="select" sortOrder="70" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Footer Bottom CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="lofpwa_seller_signup_top_block" type="select" sortOrder="80" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Seller Signup Top CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="lofpwa_seller_signup_bottom_block" type="select" sortOrder="90" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Seller Signup Bottom CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+
+                <field id="featuredproduct" type="select" sortOrder="100" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Enable random featured products slider?</label>
 					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 				</field>
-                <field id="show_recent_view" type="select" sortOrder="70" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="show_recent_view" type="select" sortOrder="110" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Show Recent View Block</label>
 					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 				</field>
+
 			</group>
 			<group id="searchsuggestion" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 				<label>Catalog Search Configuration</label>
