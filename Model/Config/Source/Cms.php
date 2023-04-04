@@ -68,7 +68,7 @@ class Cms implements \Magento\Framework\Option\ArrayInterface
                 ->addFieldToFilter("is_active", 1)
                 ->addFieldToFilter("identifier", ["nin"=>["no-route", "enable-cookies"]]);
             foreach ($collection as $cms) {
-                $this->_cms_pages[$cms->getId()] = $cms->getTitle();
+                $this->_cms_pages[$cms->getIdentifier()] = $cms->getTitle();
             }
         }
         return $this->_cms_pages;

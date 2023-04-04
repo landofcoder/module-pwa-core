@@ -14,6 +14,22 @@ type StoreConfig {
     lofpwa_footer_bottom_block : String  @doc(description: "Query by lofpwa_footer_bottom_block.")
     lofpwa_seller_signup_top_block : String  @doc(description: "Query by lofpwa_seller_signup_top_block.")
     lofpwa_seller_signup_bottom_block : String  @doc(description: "Query by lofpwa_seller_signup_bottom_block.")
+    lofpwa_about_us : String  @doc(description: "Query by lofpwa_about_us.")
+    lofpwa_privacy_policy : String  @doc(description: "Query by lofpwa_privacy_policy.")
+    lofpwa_return_policy : String  @doc(description: "Query by lofpwa_return_policy.")
+    lofpwa_terms_and_conditions : String  @doc(description: "Query by lofpwa_terms_and_conditions.")
+    lofpwa_faqs : String  @doc(description: "Query by lofpwa_faqs.")
+    lofpwa_popular_search : String  @doc(description: "Query by lofpwa_popular_search.")
+    lofpwa_sitemap : String  @doc(description: "Query by lofpwa_sitemap.")
+    lofpwa_seller_signup_thankyou_page : String @doc(description: "Query by lofpwa_seller_signup_thankyou_page.")
+    lofpwa_flashdeals_page : String @doc(description: "Query by lofpwa_flashdeals_page.")
+    
+    es_host : String @doc(description: "Query by es_host.")
+    es_index_name_catalog_category : String @doc(description: "Query index_name by catalog_category.")
+    es_index_name_catalog_product : String @doc(description: "Query index_name by catalog_product.")
+    es_index_name_marketplace_seller : String @doc(description: "Query index_name by marketplace_seller.")
+    es_index_name_thesaurus : String @doc(description: "Query index_name by thesaurus.")
+
 }
 
 type Query {

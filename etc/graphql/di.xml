@@ -12,11 +12,28 @@
                 <item name="lofpwa_show_recent_view" xsi:type="string">lofpwa/general/show_recent_view</item>
                 <item name="lofpwa_show_related_search" xsi:type="string">lofpwa/searchsuggestion/display_tag</item>
                 <item name="lofpwa_show_featured_tags" xsi:type="string">lofpwa/searchsuggestion/show_featured_tags</item>
-                <item name="lofpwa_category_sidebar_block" xsi:type="string">lofpwa/general/lofpwa_category_sidebar_block</item>
-                <item name="lofpwa_footer_bottom_block" xsi:type="string">lofpwa/general/lofpwa_footer_bottom_block</item>
-                <item name="lofpwa_seller_signup_top_block" xsi:type="string">lofpwa/general/lofpwa_seller_signup_top_block</item>
-                <item name="lofpwa_seller_signup_bottom_block" xsi:type="string">lofpwa/general/lofpwa_seller_signup_bottom_block</item>
-			</argument>
+                <item name="lofpwa_category_sidebar_block" xsi:type="string">lofpwa/general/category_sidebar_block</item>
+                <item name="lofpwa_footer_bottom_block" xsi:type="string">lofpwa/general/footer_bottom_block</item>
+                <item name="lofpwa_seller_signup_top_block" xsi:type="string">lofpwa/general/seller_signup_top_block</item>
+                <item name="lofpwa_seller_signup_bottom_block" xsi:type="string">lofpwa/general/seller_signup_bottom_block</item>
+                <item name="lofpwa_seller_signup_thankyou_page" xsi:type="string">lofpwa/general/seller_signup_thankyou_page</item>
+                <item name="lofpwa_flashdeals_page" xsi:type="string">lofpwa/general/flashdeals_page</item>			
+            
+                <item name="lofpwa_about_us" xsi:type="string">lofpwa/general/about_us</item>
+                <item name="lofpwa_privacy_policy" xsi:type="string">lofpwa/general/privacy_policy</item>
+                <item name="lofpwa_return_policy" xsi:type="string">lofpwa/general/return_policy</item>
+                <item name="lofpwa_terms_and_conditions" xsi:type="string">lofpwa/general/terms_and_conditions</item>
+                <item name="lofpwa_faqs" xsi:type="string">lofpwa/general/faqs</item>
+                <item name="lofpwa_popular_search" xsi:type="string">lofpwa/general/popular_search</item>
+                <item name="lofpwa_sitemap" xsi:type="string">lofpwa/general/sitemap</item>
+
+                <item name="es_host" xsi:type="string">lofpwa/elastic_suite/host</item>
+                <item name="es_index_name_catalog_category" xsi:type="string">lofpwa_es_catalog_category</item>
+                <item name="es_index_name_catalog_product" xsi:type="string">lofpwa_es_catalog_product</item>
+                <item name="es_index_name_marketplace_seller" xsi:type="string">lofpwa_es_marketplace_seller</item>
+                <item name="es_index_name_thesaurus" xsi:type="string">lofpwa_es_thesaurus</item>
+        
+            </argument>
 		</arguments>
 	</type>
 </config>

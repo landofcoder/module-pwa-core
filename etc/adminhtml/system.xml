@@ -17,6 +17,11 @@
 					<comment/>
 					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
 				</field>
+				<field id="footer_bottom_block" type="select" sortOrder="14" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Footer Bottom CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
 				<field id="topbar_block" type="select" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Topbar CMS Block</label>
 					<comment/>
@@ -37,33 +42,78 @@
 					<comment/>
 					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
 				</field>
-                <field id="lofpwa_category_sidebar_block" type="select" sortOrder="60" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="category_sidebar_block" type="select" sortOrder="60" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Category Sidebar CMS Block</label>
 					<comment/>
 					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
 				</field>
-                <field id="lofpwa_footer_bottom_block" type="select" sortOrder="70" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
-					<label>Footer Bottom CMS Block</label>
-					<comment/>
-					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
-				</field>
-                <field id="lofpwa_seller_signup_top_block" type="select" sortOrder="80" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="seller_signup_top_block" type="select" sortOrder="80" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Seller Signup Top CMS Block</label>
 					<comment/>
 					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
 				</field>
-                <field id="lofpwa_seller_signup_bottom_block" type="select" sortOrder="90" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="seller_signup_bottom_block" type="select" sortOrder="90" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Seller Signup Bottom CMS Block</label>
 					<comment/>
 					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
 				</field>
+                <field id="about_us" type="select" sortOrder="120" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>About us CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+                <field id="privacy_policy" type="select" sortOrder="130" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Privacy Policy CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
 
-                <field id="featuredproduct" type="select" sortOrder="100" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="return_policy" type="select" sortOrder="140" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Return Policy CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+
+				<field id="terms_and_conditions" type="select" sortOrder="150" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Terms and Conditions CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+
+				<field id="faqs" type="select" sortOrder="160" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>FAQs CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+				<field id="popular_search" type="select" sortOrder="160" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Popular search keywords CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+				<field id="sitemap" type="select" sortOrder="170" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Sitemap CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+
+				<field id="seller_signup_thankyou_page" type="select" sortOrder="180" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Seller Signup Thankyou CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+								
+				<field id="flashdeals_page" type="select" sortOrder="190" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Flashdeals CMS Block</label>
+					<comment/>
+					<source_model>Lof\PwaCore\Model\Config\Source\CmsBlock</source_model>
+				</field>
+
+				<field id="featuredproduct" type="select" sortOrder="1000" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Enable random featured products slider?</label>
 					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 				</field>
-                <field id="show_recent_view" type="select" sortOrder="110" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <field id="show_recent_view" type="select" sortOrder="1010" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Show Recent View Block</label>
 					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -89,6 +139,14 @@
 				<field id="featured_tags" type="text" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Featured Search Tags to display in Search</label>
 					<comment>Input multi tags with comma, it will display when not matched any keywords.</comment>
+				</field>
+			</group>
+
+			<group id="elastic_suite" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>Elastic Search Configuration</label>
+				<field id="host" type="text" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Elastic Search Host</label>
+					<comment/>
 				</field>
 			</group>
 		</section>

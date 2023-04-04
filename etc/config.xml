@@ -3,12 +3,27 @@
 	<default>
 		<lofpwa>
 			<general>
-				<footer_top_block>footer-top</footer_top_block>
                 <footer_block>footer</footer_block>
+				<footer_top_block>footer-top</footer_top_block>
+				<footer_bottom_block>footer-bottom</footer_bottom_block>
                 <topbar_block>topbar</topbar_block>
                 <contact_us_top_block>contact-us-top</contact_us_top_block>
                 <contact_us_right_block>contact-us-right</contact_us_right_block>
                 <sizechart_block>sizechart</sizechart_block>
+				<category_sidebar_block>category-sidebar</category_sidebar_block>
+				<seller_signup_top_block>seller-signup-top</seller_signup_top_block>
+				<seller_signup_top_block>seller-signup-top</seller_signup_top_block>
+				<seller_signup_bottom_block>seller-signup-bottom</seller_signup_bottom_block>
+				<about_us>about-us</about_us>
+				<privacy_policy>privacy</privacy_policy>
+				<return_policy>return-policy</return_policy>
+				<terms_and_conditions>terms-and-conditions</terms_and_conditions>
+				<faqs>faqs</faqs>
+				<popular_search>popular-search</popular_search>
+				<sitemap>sitemap</sitemap>
+				<seller_signup_thankyou_page>seller-thankyou-page</seller_signup_thankyou_page>
+				<flashdeals_page>flashdeals</flashdeals_page>
+
                 <featuredproduct>0</featuredproduct>
                 <show_recent_view>1</show_recent_view>
 			</general>
@@ -18,6 +33,9 @@
 				<tag_limit>5</tag_limit>
 				<featured_tags/>
 			</searchsuggestion>
+			<elastic_suite>
+				<host>https://headless-search.bavaan.com</host>
+			</elastic_suite>
 		</lofpwa>
 	</default>
 </config>

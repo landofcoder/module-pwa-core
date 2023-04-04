@@ -63,7 +63,7 @@ class CmsBlock implements \Magento\Framework\Option\ArrayInterface
             $collection = $this->_groupModel->getCollection()
                                 ->addFieldToFilter("is_active", 1);
             foreach ($collection as $_block) {
-                $this->_cms_blocks[$_block->getId()] = $_block->getTitle();
+                $this->_cms_blocks[$_block->getIdentifier()] = $_block->getTitle();
             }
         }
         return $this->_cms_blocks;
